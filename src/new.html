@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<style>
+    label{
+        color: deeppink;
+    }
+    label:active{
+        color: blue;
+    }
+    input:focus{
+        background: cornflowerblue;
+        caret-color: red;
+    }
+    label:focus{
+        color: lavenderblush;
+    }
+    h5{
+        color: blue;
+    }
+    ul:active{
+        color: blue;
+    }
+    li:first-child {
+        color: red;
+    }
+    li:last-child{
+        color: deeppink;
+    }
+    li:nth-child(3){
+        color: yellow;
+    }li:nth-child(4){
+        color: aqua;
+    }
+     li:nth-last-child(1){
+         color: green;
+     }
+     li:only-child{
+         color: orange;
+     }
+
+</style>
+<body>
+    
+<form>
+    <label for="username">Name</label><br>
+    <input type="text" id="username" name="name" placeholder="Enter your name">
+</form>
+
+<ul type="circle">
+    <li>Java</li>
+    <li>Python</li>
+    <li>Go</li>
+    <li>C</li>
+    <li>C++</li>
+    <li>C#</li>
+</ul><ul type="circle">
+    <li>Java</li>
+</ul>
+
+</body>
+</html>
